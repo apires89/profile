@@ -79,7 +79,9 @@ a:hover {
 .btn-red {
     background-color: #DD5555;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     padding: 10px;
     border-radius: 4px;
+    font-size: 15px;
+    text-decoration: none;
 }
