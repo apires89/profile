@@ -60,7 +60,7 @@ a:hover {
   border-radius: 50%;
 }
 
-}
+
 .card-white {
   background: white;
   padding: 30px;
@@ -74,4 +74,12 @@ a:hover {
 
 .list-inline {
   padding-left: 5px;
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
 }
