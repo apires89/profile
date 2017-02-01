@@ -2,29 +2,29 @@ body {
     background: #EBEBEB;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-    color: #FF851B;
+    color: white;
     font-size: 20px;
     line-height: 1.6em;
 }
 h1, h2 ,h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-    color: #F65B3C;
+    color: white;
     font-size: 30px;
     line-height: 1em;
 }
 
 li a {
-  color: #f3835e;
+  color: white;
   text-decoration: none;
 }
 
 a {
-  color: #f3835e;
+  color: white;
 }
 
 a:hover {
-    background-color: #f3df5e;
+    background-color: #083826;
 }
 
 .profilepic {
@@ -37,10 +37,11 @@ a:hover {
 .moviepic {
     padding: 5px;
     width: 150px;
+    border-radius: 25px;
 }
 
 .card {
-  background: #F9F7F6;
+  background: #6E927C;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 4px;
@@ -52,8 +53,9 @@ a:hover {
 }
 
 .container {
-  width: 650px;
+  width: 80%;
   margin: 0 auto;
+  margin-left: 120px;
 }
 
 .img-circle {
@@ -76,12 +78,44 @@ a:hover {
   padding-left: 5px;
 }
 
-.btn-red {
-    background-color: #DD5555;
+.btn-green {
+    background-color: #6E927C;
     color: white;
     font-weight: 400;
     padding: 10px;
     border-radius: 4px;
     font-size: 15px;
     text-decoration: none;
+}
+
+#sidebar {
+    background-color: #3d5145;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100px;
+    text-align: center;
+}
+
+#logoMH {
+  background-color: #6E927C;
+  padding: 5px;
+  width: 100px;
+  margin: 0 auto;
+
+}
+
+#page-content {
+  margin-left: 80px;
+}
+
+#sidebar ul{
+   list-style-type: none;
+   padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
